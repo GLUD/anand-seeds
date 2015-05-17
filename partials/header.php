@@ -91,7 +91,7 @@
                     <ul class="dropdown-menu extended inbox">
                         <div class="notify-arrow notify-arrow-green"></div>
                         <li>
-                            <p class="green">You have 5 new messages</p>
+                            <p class="green">Tienes 5 mensajes</p>
                         </li>
                         <li>
                             <a href="index.html#">
@@ -101,7 +101,7 @@
                                 <span class="time">Just now</span>
                                 </span>
                                 <span class="message">
-                                    Hi mate, how is everything?
+                                    Hola amigo, que tal vas?
                                 </span>
                             </a>
                         </li>
@@ -113,7 +113,7 @@
                                 <span class="time">40 mins.</span>
                                 </span>
                                 <span class="message">
-                                 Hi, I need your help with this.
+                                 Hola, yo necesitare su ayuda con esto
                                 </span>
                             </a>
                         </li>
@@ -125,7 +125,7 @@
                                 <span class="time">2 hrs.</span>
                                 </span>
                                 <span class="message">
-                                    Love your new Dashboard.
+                                    Excelente trabajo, felicitaciones
                                 </span>
                             </a>
                         </li>
@@ -137,12 +137,12 @@
                                 <span class="time">4 hrs.</span>
                                 </span>
                                 <span class="message">
-                                    Please, answer asap.
+                                    Por favor, responda lo antes posible.
                                 </span>
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">See all messages</a>
+                            <a href="index.html#">Ver todos los mensajes</a>
                         </li>
                     </ul>
                 </li>
@@ -224,11 +224,11 @@
               <li class="sub-menu">
                   <a href="javascript:;" >
                       <i class="fa fa-th"></i>
-                      <span>Data Tables</span>
+                      <span>Tabla de Datos</span>
                   </a>
                   <ul class="sub">
-                      <li><a  href="basic_table.html">Basic Table</a></li>
-                      <li><a  href="responsive_table.html">Responsive Table</a></li>
+                      <li><a  href="basic_table.html">Tabla Registros</a></li>
+                      <li><a  href="responsive_table.html">Graficos</a></li>
                   </ul>
               </li>
               <li class="sub-menu">
