@@ -234,11 +234,12 @@
               <li class="sub-menu">
                   <a href="javascript:;" >
                       <i class=" fa fa-bar-chart-o"></i>
-                      <span>Charts</span>
+                      <span>Desarrolladores</span>
                   </a>
                   <ul class="sub">
-                      <li><a  href="morris.html">Morris</a></li>
-                      <li><a  href="chartjs.html">Chartjs</a></li>
+                      <li><a  href="morris.html">Ivan Camilo Ruiz</a></li>
+                      <li><a  href="chartjs.html">Jorge Ulises Useche</a></li>
+                      <li><a  href="chartjs.html">Diego Javier Mena</a></li>
                   </ul>
               </li>
 
