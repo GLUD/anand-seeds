@@ -1,9 +1,2 @@
-// <?php
-//      print "<img src=\"imagen.jpg\">"
-//  ?> 
+<img src="/assets/img/arquitectura.png" class="img-rounded img-responsive" >
 
-
-
-//<?php
-//print "<a href=\"http://www.web.com\"><img src=\"imagen.jpg\"></a>"
-//?> 
