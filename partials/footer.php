@@ -73,6 +73,9 @@
             clearTimeout(tempo);
             actualizarRegistros(dato);
         });
+        if($("#ticker").length > 0) {
+          actualizarRegistros('dato_hum_s');  
+        }
         $("#date-popover").popover({html: true, trigger: "manual"});
         $("#date-popover").hide();
         $("#date-popover").click(function (e) {
@@ -94,8 +97,7 @@
                 {type: "text", label: "Special event", badge: "00"},
                 {type: "block", label: "Regular event", }
             ]
-        });
-        actualizarRegistros('dato_hum_s');        
+        });      
     });
     
     var tempo;
