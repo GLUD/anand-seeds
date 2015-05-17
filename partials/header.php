@@ -174,31 +174,31 @@
               <li class="mt">
                   <a class="active" href="index.html">
                       <i class="fa fa-dashboard"></i>
-                      <span>Dashboard</span>
+                      <span>Objetivos</span>
                   </a>
               </li>
 
               <li class="sub-menu">
                   <a href="javascript:;" >
                       <i class="fa fa-desktop"></i>
-                      <span>UI Elements</span>
+                      <span>Esquemas</span>
                   </a>
                   <ul class="sub">
-                      <li><a  href="general.html">General</a></li>
-                      <li><a  href="buttons.html">Buttons</a></li>
-                      <li><a  href="panels.html">Panels</a></li>
+                      <li><a  href="general.html">Estado-Relación</a></li>
+                      <li><a  href="buttons.html">Arquitectura-Conexión</a></li>
+                      <li><a  href="panels.html">Esquematicos</a></li>
                   </ul>
               </li>
 
               <li class="sub-menu">
                   <a href="javascript:;" >
                       <i class="fa fa-cogs"></i>
-                      <span>Components</span>
+                      <span>Materiales</span>
                   </a>
                   <ul class="sub">
-                      <li><a  href="calendar.html">Calendar</a></li>
-                      <li><a  href="gallery.html">Gallery</a></li>
-                      <li><a  href="todo_list.html">Todo List</a></li>
+                      <li><a  href="calendar.html">Arduino Mega</a></li>
+                      <li><a  href="gallery.html">Modulo Ethernet</a></li>
+                      <li><a  href="todo_list.html">Sensores</a></li>
                   </ul>
               </li>
               <li class="sub-menu">
