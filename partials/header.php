@@ -73,7 +73,7 @@
                   </a>
                   <ul class="sub">
                       <li><a  href="tablas_registros">Tablas registros</a></li>
-                      <li><a  href="graficos">Gráficos</a></li>
+                      <li><a  href="graficas">Gráficas</a></li>
                   </ul>
               </li>
               <li class="sub-menu">
