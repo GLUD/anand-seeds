@@ -59,6 +59,16 @@ $klein->respond('/arduino', function ($request, $response, $service) {
     $service->render('views/arduino.php');
 });
 
+$klein->respond('/ethernet', function ($request, $response, $service) {
+    $service->pageTitle = 'Ethernet';
+    $service->render('views/ethernet.php');
+});
+
+$klein->respond('/sensores', function ($request, $response, $service) {
+    $service->pageTitle = 'Sensores';
+    $service->render('views/sensores.php');
+});
+
 $klein->respond('/tablas_registros', function ($request, $response, $service) {
     $service->pageTitle = 'Tablas Registros';
     $service->render('views/tablas_registros.php');
