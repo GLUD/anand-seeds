@@ -413,7 +413,7 @@ ul.sidebar-menu li a.active i {
 }
 
 .black-bg {
-    background: #ffd777;
+    background: #2DEE50;
     border-bottom: 1px solid #c9aa5f;
 }
 
@@ -445,7 +445,7 @@ a.logo:hover, a.logo:focus {
 }
 
 a.logo span {
-    color: #68dff0;
+    color: ##FFCC00;
 }
 
 
