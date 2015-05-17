@@ -7,3 +7,5 @@ http://www.blacktie.co/2014/07/dashgum-free-dashboard/
 https://github.com/chriso/klein.php
 * PDO Database Class as Database Class:
 https://github.com/indieteq/PHP-MySQL-PDO-Database-Class
+## Copyright and license
+#### Code released under Beerware
