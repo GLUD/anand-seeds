@@ -3,20 +3,23 @@
     var estado2 = false;
     var estado3 = false;
     function cambiarIlum(){
-        $.ajax({url:"http://192.168.1.238", data:{"ilum":((estado1==true)?"off":"on")},success:function (){
+        $.ajax({url:"http://192.168.1.238", data:{"ilum":((estado1==false)?"on":"off")}})
+        .done(function (){
             estado1 = ~estado1;
-        }});
+        });
     }
     function cambiarVent(){
-        $.ajax({url:"http://192.168.1.238", data:{"vent":((estado2==true)?"on":"off")},success:function (){
+        $.ajax({url:"http://192.168.1.238", data:{"vent":((estado2==false)?"on":"off")}})
+        .done(function (){
             estado2 = ~estado2;
-        }});
+        });
     }
     
     function cambiarRieg(){        
-        $.ajax({url:"http://192.168.1.238", data:{"rieg":((estado3==false)?"off":"on")},success:function (){
+        $.ajax({url:"http://192.168.1.238", data:{"rieg":((estado3==false)?"on":"off")}})
+        .done(function (){
             estado3 = ~estado3;
-        }});
+        });
     }
 </script>
       
