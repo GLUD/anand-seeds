@@ -23,7 +23,9 @@
     }
 </script>
       
-      
-<a class ='btn btn-info' onclick="cambiarIlum()">Iluminación</a>
-<a class ='btn btn-info' onclick="cambiarVent()">Ventilacion</a>
-<a class ='btn btn-info' onclick="cambiarRieg()">Riego</a>
+<section class="wrapper">   
+    <h1>Activar las variables de iluminación, ventilación y riego.</h1>
+<a class ='btn btn-info glyphicon glyphicon-off' onclick="cambiarIlum()"> Iluminación</a>
+<a class ='btn btn-info glyphicon glyphicon-off' onclick="cambiarVent()"> Ventilacion</a>
+<a class ='btn btn-info glyphicon glyphicon-off' onclick="cambiarRieg()"> Riego</a>
+</section>

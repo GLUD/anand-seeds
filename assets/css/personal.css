@@ -73,3 +73,18 @@
     display: block;
     margin-top: 10px;
 }
+.redes
+{
+    display: inline-block;
+}
+.redes > li 
+{
+    list-style: outside none none;
+    box-sizing: border-box;
+    outline-style: dashed;
+    outline-width: 1px;
+    padding: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    outline-color: azure;
+}

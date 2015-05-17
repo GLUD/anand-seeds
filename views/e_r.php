@@ -1,2 +1,2 @@
-<img src="/assets/img/arquitectura.png" class="img-rounded img-responsive" >
+<img src="/assets/img/entidad.png" class="img-rounded img-responsive" >
 

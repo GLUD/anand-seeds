@@ -8,11 +8,17 @@
   <!--footer start-->
   <footer class="site-footer">
       <div class="text-center">
-          2015 - Grupo GNU/Linux Universida Distrital
-          <a href="index.html#" class="go-top">
+            <ul class="redes">
+                <li><a href="https://www.facebook.com/anandseeds">Facebook</a></li>
+                <li><a href="https://twitter.com/AnandSeeds">Twitter</a></li>
+            </ul>
+          <span style="display:inline-block;">2015 - Grupo GNU/Linux Universida Distrital</span>
+          <a href="/" class="go-top">
               <i class="fa fa-angle-up"></i>
           </a>
+          
       </div>
+      
   </footer>
   <!--footer end-->
 </section>
@@ -62,12 +68,17 @@
 
 <script type="application/javascript">
     $(document).ready(function () {
+        $( "#change_ticker" ).change(function() {
+            dato = $( this ).val();
+            clearTimeout(tempo);
+            actualizarRegistros(dato);
+        });
         $("#date-popover").popover({html: true, trigger: "manual"});
         $("#date-popover").hide();
         $("#date-popover").click(function (e) {
             $(this).hide();
         });       
-
+        
         $("#my-calendar").zabuto_calendar({
             action: function () {
                 return myDateFunction(this.id, false);
@@ -84,8 +95,24 @@
                 {type: "block", label: "Regular event", }
             ]
         });
+        actualizarRegistros('dato_hum_s');        
     });
-
+    
+    var tempo;
+    function actualizarRegistros(variable){
+        clearTimeout(tempo);
+        $.ajax({url:"http://192.168.1.239/DBClass/ultimos_datos.php", data:{"maximo":100}})
+        .done(function (a){
+            a=JSON.parse(a);
+            var arreglo = new Array();
+            for(var i=0; i<a.length; i++){
+                arreglo.push(a[i][variable]);
+            }
+            sufijo = {'dato_hum_s':' hum','dato_hum_r':' rel','dato_tem':' °C','dato_rad':' Rads'};
+            $('#ticker').sparkline(arreglo,{width : '90%',height:'100%',tooltipSuffix: sufijo[variable]});
+        });
+        tempo = setTimeout(function (){actualizarRegistros(variable);},1000);
+    }
 
     function myNavFunction(id) {
         $("#date-popover").hide();

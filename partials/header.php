@@ -12,7 +12,6 @@
         <!--logo end-->
         <div class="nav notify-row" id="top_menu">
             <!--  notification start -->
-            
             <!--  notification end -->
         </div>
         <div class="top-menu">
@@ -33,7 +32,7 @@
           <!-- sidebar menu start-->
           <ul class="sidebar-menu" id="nav-accordion">
 
-              <p class="centered"><a href="#"><img src="assets/img/logo.png" class="img-circle" width="60"></a></p>
+              <p class="centered"><a href="/"><img src="assets/img/logo.png" class="img-circle" width="60"></a></p>
               <h5 class="centered">Anand Seeds</h5>
 
               <li class="mt">
@@ -69,10 +68,10 @@
               <li class="sub-menu">
                   <a href="javascript:;" >
                       <i class="fa fa-th"></i>
-                      <span>Tabla de Datos</span>
+                      <span>Análisis de Datos</span>
                   </a>
                   <ul class="sub">
-                      <li><a  href="tablas_registros">Tablas registros</a></li>
+                      <li><a  href="tablas_registros">Interruptores</a></li>
                       <li><a  href="graficas">Gráficas</a></li>
                   </ul>
               </li>
