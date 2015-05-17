@@ -34,4 +34,39 @@ $klein->respond('/registrarse', function ($request, $response, $service) {
     $service->render('views/registro.php');
 });
 
+$klein->respond('/objetivos', function ($request, $response, $service) {
+    $service->pageTitle = 'Objetivos';
+    $service->render('views/objetivos.php');
+});
+
+$klein->respond('/e_r', function ($request, $response, $service) {
+    $service->pageTitle = 'Entidad Relación';
+    $service->render('views/e_r.php');
+});
+
+$klein->respond('/arquitectura', function ($request, $response, $service) {
+    $service->pageTitle = 'Arquitectura';
+    $service->render('views/arquitectura.php');
+});
+
+$klein->respond('/esquemas', function ($request, $response, $service) {
+    $service->pageTitle = 'Esquemas';
+    $service->render('views/esquemas.php');
+});
+
+$klein->respond('/arduino', function ($request, $response, $service) {
+    $service->pageTitle = 'Arduino';
+    $service->render('views/arduino.php');
+});
+
+$klein->respond('/tablas_registros', function ($request, $response, $service) {
+    $service->pageTitle = 'Tablas Registros';
+    $service->render('views/tablas_registros.php');
+});
+
+$klein->respond('/graficas', function ($request, $response, $service) {
+    $service->pageTitle = 'Gráficas';
+    $service->render('views/graficas.php');
+});
+
 $klein->dispatch();

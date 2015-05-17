@@ -56,7 +56,6 @@
             });            
             localStorage.setItem("haingresado", "glud");
         }
-
     return false;
     });
 </script>
