@@ -39,32 +39,36 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-    var unique_id = $.gritter.add({
-        // (string | mandatory) the heading of the notification
-        title: 'Bienvenido a Anand Seeds!',
-        // (string | mandatory) the text inside the notification
-        text: 'Este proyecto se desarrolla en Hackaton patrocinada por Bunny Inc. <a href="http://bunnyinc.com" target="_blank" style="color:#ffd777">BunnyInc.com</a>.',
-        // (string | optional) the image to display on the left
-        image: 'assets/img/bunny_small.png',
-        // (bool | optional) if you want it to fade out on its own or just sit there
-        sticky: true,
-        // (int | optional) the time you want it to be alive for before fading out
-        time: '',
-        // (string | optional) the class name you want to apply to that specific message
-        class_name: 'my-sticky-class'
-    });
+        if(localStorage.getItem("haingresado")==null){
+            var unique_id = $.gritter.add({
+                // (string | mandatory) the heading of the notification
+                title: 'Bienvenido a Anand Seeds!',
+                // (string | mandatory) the text inside the notification
+                text: 'Este proyecto se desarrolla en Hackaton patrocinada por Bunny Inc. <a href="http://bunnyinc.com" target="_blank" style="color:#ffd777">BunnyInc.com</a>.',
+                // (string | optional) the image to display on the left
+                image: 'assets/img/bunny_small.png',
+                // (bool | optional) if you want it to fade out on its own or just sit there
+                sticky: true,
+                // (int | optional) the time you want it to be alive for before fading out
+                time: '',
+                // (string | optional) the class name you want to apply to that specific message
+                class_name: 'my-sticky-class'
+            });            
+            localStorage.setItem("haingresado", "glud");
+        }
 
     return false;
     });
 </script>
 
 <script type="application/javascript">
-    $(document).ready(function () {
+    $(document).ready(function () {   
+        
         $("#date-popover").popover({html: true, trigger: "manual"});
         $("#date-popover").hide();
         $("#date-popover").click(function (e) {
             $(this).hide();
-        });
+        });       
 
         $("#my-calendar").zabuto_calendar({
             action: function () {
