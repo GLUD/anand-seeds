@@ -103,7 +103,7 @@
     var tempo;
     function actualizarRegistros(variable){
         clearTimeout(tempo);
-        $.ajax({url:"http://192.168.1.239/DBClass/ultimos_datos.php", data:{"maximo":100}})
+        $.ajax({url:"http://localhost/DBClass/ultimos_datos.php", data:{"maximo":100}})
         .done(function (a){
             a=JSON.parse(a);
             var arreglo = new Array();

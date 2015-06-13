@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-9 main-chart">
-        <iframe width="420" height="315" src="http://www.youtube.com/embed/z3DQPMnrbHc" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z3DQPMnrbHc" frameborder="0" allowfullscreen></iframe>
         <div class="inner cover">
         <h1 class="cover-heading">Soberanía Alimentaria.</h1>
         <p aling="justify" class="lead">Es el derecho de los pueblos a definir sus propias políticas y estrategias sustentables de producción , distribucción
